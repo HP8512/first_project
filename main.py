@@ -60,9 +60,6 @@ class Login(QMainWindow):
             self.msg2.setText("Vui lòng nhập email và mật khẩu")
             self.msg2.setIcon(QMessageBox.Icon.Warning)
             self.msg2.exec()
-        elif lem == "1" and lps == "1":   #CẦN XÓA
-            home.show()                     #CẦN XÓA
-            self.close()                    #CẦN XÓA
         elif lem != em and lps != ps:
             self.msg2.setText("Email hoặc mật khẩu sai hoặc chưa tạo")
             self.msg2.setIcon(QMessageBox.Icon.Warning)
