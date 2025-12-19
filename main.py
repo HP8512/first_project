@@ -7,6 +7,7 @@ em = " "
 ps = " "
 
 
+
 class Register(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -59,6 +60,9 @@ class Login(QMainWindow):
             self.msg2.setText("Vui lòng nhập email và mật khẩu")
             self.msg2.setIcon(QMessageBox.Icon.Warning)
             self.msg2.exec()
+        elif lem == "1" and lps == "1":   #CẦN XÓA
+            home.show()                     #CẦN XÓA
+            self.close()                    #CẦN XÓA
         elif lem != em and lps != ps:
             self.msg2.setText("Email hoặc mật khẩu sai hoặc chưa tạo")
             self.msg2.setIcon(QMessageBox.Icon.Warning)
@@ -77,38 +81,134 @@ class Home(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/Home.ui",self)
+        # BACK
         self.detail1.clicked.connect(self.phoneup)
-        # self.detail2.clicked.connect(self.bearup)
-        # self.detail3.clicked.connect(self.treeup)
-        # self.detail4.clicked.connect(self.disup)
+        self.detail2.clicked.connect(self.bearup)
+        self.detail3.clicked.connect(self.treeup)
+        self.detail4.clicked.connect(self.disup)
+        self.myst.returnPressed.connect(self.checksecrt)
 
+    def checksecrt(self):
+        code = self.myst.text()
+        if code == "mysteryproduct":
+            my.show()
+            self.close()
+
+    #BACK
     def phoneup(self):
         Phone.show()
+        self.close()
+    def bearup(self):
+        Bear.show()
+        self.close()
+    def treeup(self):
+        Tree.show()
+        self.close()
+    def disup(self):
+        Dis.show()
         self.close()
 
 class phone(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/iphone.ui",self)
-        self.back1.clicked.connect(self.sw)
-    def sw(self):
+        self.back1.clicked.connect(self.bac)
+        self.buy1.clicked.connect(self.pay)
+    
+    def bac(self):
         home.show()
         self.close()
+
+    def pay(self):
+        Paid.show()
+        self.close()
+
 class bear(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/bearing.ui",self)
+        self.back2.clicked.connect(self.bac)
+        self.buy2.clicked.connect(self.pay)
+
+    def bac(self):
+        home.show()
+        self.close()
+
+    def pay(self):
+        Paid.show()
+        self.close()
 
 class patapim(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/tree.ui",self)
+        self.back3.clicked.connect(self.bac)
+        self.buy3.clicked.connect(self.pay)
+
+    def bac(self):
+        home.show()
+        self.close()
+
+    def pay(self):
+        Paid.show()
+        self.close()
 
 class dik(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/disk.ui",self)
+        self.back4.clicked.connect(self.bac)
+        self.buy4.clicked.connect(self.pay)
 
+    def bac(self):
+        home.show()
+        self.close()
+
+    def pay(self):
+        Paid.show()
+        self.close()
+
+class Payment(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("gui/payment.ui",self)
+        self.payback.clicked.connect(self.bac)
+        self.COD.clicked.connect(self.paysuces)
+        self.ATM.clicked.connect(self.paysuces)
+        self.visa.clicked.connect(self.paysuces)
+
+    def bac(self):
+        home.show()
+        self.close()
+
+    def paysuces(self):
+        Suce.show()
+        self.close()
+
+class suce(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("gui/success.ui",self)
+        self.sucback.clicked.connect(self.bac)
+
+    def bac(self):
+        home.show()
+        self.close()
+
+class myste(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("gui/mystery.ui",self)
+        self.back36.clicked.connect(self.bac)
+        self.buy36.clicked.connect(self.pay)
+
+    def bac(self):
+        home.show()
+        self.close()
+
+    def pay(self):
+        Paid.show()
+        self.close()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
@@ -117,7 +217,10 @@ if __name__ == "__main__":
     Bear = bear()
     Tree = patapim()
     Dis = dik()
+    my = myste()
     login = Login()
+    Paid = Payment()
+    Suce = suce()
     home = Home()
     login.show()
     app.exec()

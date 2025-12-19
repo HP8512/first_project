@@ -89,7 +89,7 @@
      <string>total payment: .....</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="close">
+   <widget class="QPushButton" name="sucback">
     <property name="geometry">
      <rect>
       <x>250</x>

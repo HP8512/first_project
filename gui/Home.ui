@@ -414,7 +414,7 @@ border-radius:20</string>
      <string>lowest price: 9000000000000000000000000000000000000 vnđ BIG DISCOUNT - 20000%</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="SQLi">
+   <widget class="QLineEdit" name="myst">
     <property name="geometry">
      <rect>
       <x>390</x>
