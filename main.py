@@ -98,7 +98,7 @@ class Home(QMainWindow):
         reply = QMessageBox.question(
             self,
             "Đăng xuất",
-            "Bạn có chắc chắn muốn đăng xuất không?",
+            "Bạn có chắc chắn muốn đăng xuất không?\nBạn sẽ phải tạo lại tài khoản nếu đăng xuất",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel,
             QMessageBox.StandardButton.Cancel
         )
