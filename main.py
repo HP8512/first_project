@@ -79,6 +79,8 @@ class Home(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/Home.ui",self)
+        self.logout.clicked.connect(self.out)
+        self.logmsg = QMessageBox()
         # BACK
         self.detail1.clicked.connect(self.phoneup)
         self.detail2.clicked.connect(self.bearup)
@@ -92,6 +94,17 @@ class Home(QMainWindow):
             my.show()
             self.close()
 
+    def out(self):
+        reply = QMessageBox.question(
+            self,                               # parent
+            "Đăng xuất",                        # tiêu đề popup
+            "Bạn có chắc chắn muốn đăng xuất?", # nội dung
+            QMessageBox.Yes | QMessageBox.Cancel,
+            QMessageBox.Cancel
+        )
+        if reply == QMessageBox.Yes:
+            login.show()
+            self.close()
     #BACK
     def phoneup(self):
         Phone.show()
