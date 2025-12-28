@@ -86,6 +86,10 @@ class Home(QMainWindow):
         self.detail2.clicked.connect(self.bearup)
         self.detail3.clicked.connect(self.treeup)
         self.detail4.clicked.connect(self.disup)
+        self.detail1_2.clicked.connect(self.phoneup)
+        self.detail2_2.clicked.connect(self.bearup)
+        self.detail3_2.clicked.connect(self.treeup)
+        self.detail4_2.clicked.connect(self.disup)
         self.myst.returnPressed.connect(self.checksecrt)
 
     def checksecrt(self):

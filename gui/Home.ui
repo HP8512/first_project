@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>877</height>
+    <height>878</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -27,7 +27,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>110</y>
+      <y>80</y>
       <width>481</width>
       <height>41</height>
      </rect>
@@ -59,7 +59,7 @@
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>100</y>
+      <y>60</y>
       <width>321</width>
       <height>71</height>
      </rect>
@@ -90,8 +90,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>110</y>
+      <x>910</x>
+      <y>70</y>
       <width>401</width>
       <height>51</height>
      </rect>
@@ -122,9 +122,9 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>1370</x>
-      <y>120</y>
-      <width>401</width>
+      <x>1290</x>
+      <y>70</y>
+      <width>341</width>
       <height>51</height>
      </rect>
     </property>
@@ -154,10 +154,10 @@
    <widget class="QLabel" name="Iphone">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>180</y>
-      <width>321</width>
-      <height>341</height>
+      <x>160</x>
+      <y>130</y>
+      <width>211</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="font">
@@ -192,10 +192,10 @@
    <widget class="QLabel" name="Bearing">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>180</y>
-      <width>341</width>
-      <height>331</height>
+      <x>600</x>
+      <y>140</y>
+      <width>211</width>
+      <height>191</height>
      </rect>
     </property>
     <property name="font">
@@ -230,10 +230,10 @@
    <widget class="QLabel" name="Tree">
     <property name="geometry">
      <rect>
-      <x>970</x>
-      <y>180</y>
-      <width>321</width>
-      <height>331</height>
+      <x>940</x>
+      <y>130</y>
+      <width>211</width>
+      <height>231</height>
      </rect>
     </property>
     <property name="font">
@@ -268,10 +268,10 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>1370</x>
-      <y>180</y>
-      <width>341</width>
-      <height>331</height>
+      <x>1330</x>
+      <y>130</y>
+      <width>231</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="font">
@@ -306,10 +306,10 @@
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>520</y>
+      <x>650</x>
+      <y>340</y>
       <width>101</width>
-      <height>51</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -328,10 +328,10 @@
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>970</x>
-      <y>530</y>
-      <width>381</width>
-      <height>51</height>
+      <x>990</x>
+      <y>370</y>
+      <width>101</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -350,10 +350,10 @@
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>1380</x>
-      <y>530</y>
-      <width>411</width>
-      <height>51</height>
+      <x>1390</x>
+      <y>360</y>
+      <width>121</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -372,8 +372,8 @@
    <widget class="QPushButton" name="detail1">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>620</y>
+      <x>160</x>
+      <y>390</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -395,9 +395,9 @@ border-radius:20</string>
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>540</y>
-      <width>511</width>
+      <x>20</x>
+      <y>340</y>
+      <width>521</width>
       <height>41</height>
      </rect>
     </property>
@@ -433,7 +433,7 @@ border-radius:15px;</string>
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>620</y>
+      <y>390</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -455,8 +455,8 @@ border-radius:20</string>
    <widget class="QPushButton" name="detail3">
     <property name="geometry">
      <rect>
-      <x>1040</x>
-      <y>610</y>
+      <x>940</x>
+      <y>390</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -478,8 +478,8 @@ border-radius:20</string>
    <widget class="QPushButton" name="detail4">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>610</y>
+      <x>1330</x>
+      <y>390</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -551,6 +551,466 @@ border-radius:20</string>
     </property>
     <property name="text">
      <string>Log out</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>450</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>Fastest viruss</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>1080</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>price: 20000 vnđ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>Speedaholic</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>510</y>
+      <width>201</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/USB-16GB-SanDisk-Cruzer-Blade-CZ50.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Bearing_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>510</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/C3yoyodesignspeedaholicblue_1024x1024@2x.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Tree_2">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>510</y>
+      <width>201</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/Tung_tung_tung_sahur_(cropped).webp.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1100</y>
+      <width>511</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>lowest price: 9000000000000000000000000000000000000 vnđ BIG DISCOUNT - 20000%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>1090</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>price: 360000 vnđ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>460</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>Intel core i9</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>1090</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>price: 15000 vnđ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>450</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string>Wooden thing</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Iphone_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>520</y>
+      <width>181</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/c121_3789263228594ca5850e0721df9f1328_1024x1024.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detail1_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>750</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:orange;
+color:white;
+border-radius:20</string>
+    </property>
+    <property name="text">
+     <string>detail</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detail3_2">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>750</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:orange;
+color:white;
+border-radius:20</string>
+    </property>
+    <property name="text">
+     <string>detail</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detail4_2">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>740</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:orange;
+color:white;
+border-radius:20</string>
+    </property>
+    <property name="text">
+     <string>detail</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detail2_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>750</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:orange;
+color:white;
+border-radius:20</string>
+    </property>
+    <property name="text">
+     <string>detail</string>
     </property>
    </widget>
   </widget>
